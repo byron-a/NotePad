@@ -41,5 +41,5 @@ WEB MDN DOCS.
 
 ## Author
 byron-a
-- Website - [Work in progress](https://www.work-in-progress)
+- Website - (https://byron-a.github.io/My_Resume/)
  
