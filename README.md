@@ -1,3 +1,6 @@
+##Note Pad
+new notes pad creating, editing texts and viewing saved note texts
+
 <!--  TASKS YET TO BE COMPLETED;.......................
                                [yet to work]
 
@@ -16,17 +19,17 @@
 - [Author](#author)
 
 ## Overview
-Drum kit web, a basic test for DOM, and interaction between the keyboard(computer hardware) and the documents(HTML file)
+This is a basic test of HTML, CSS, JAVASCRIPT AND DOM, also the use of web local/session storage to hold data on refresh .
 
 ### Links
 
-- Solution URL: [Repo](https://github.com/byron-a/Drum_Kit.git)
-- Live Site URL: [live page](https://byron-a.github.io/Drum_Kit/)
+- Solution URL: [Repo](https://github.com/byron-a/NotePad.git)
+- Live Site URL: [live page](https://byron-a.github.io/NotePad/)
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS custom properties and media queries
 - JavaScript
 
 ### Continued development
