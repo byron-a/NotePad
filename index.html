@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Web</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- adding font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap cdn -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+  </head>
+  <body onload="console.log('Welcome To DOM')">
+    <div class="header">
+      <button class="add"><i class="fa-solid fa-plus"></i> Add note</button>
+      <button class="saved">
+         <i class="fa-solid fa-floppy-disk"></i> Saved note
+      </button>
+      <!-- saved note -->
+      <div class="list">
+        <ul id="savedNote">
+          <hr style="border:0.1px solid #24575fd7; margin-top: 20px; margin-bottom: 13px;">
+        </ul>
+      </div>
+      
+    </div>
+    
+    <section>
+      <div class="note" >
+        <div class="menu">
+          <span class="save"><i class="fa-solid fa-floppy-disk"></i>save</span>
+          <span class="edit"><i class="fa-solid fa-pen-to-square"></i></span>
+          <span class="delete"><i class="fa-solid fa-trash-can"></i></span>
+        </div>
+        <div class="main">
+          <form>
+            <textarea></textarea>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="padDiv">
+      <ul class="padList">
+      <!-- <li style="list-style-type: none;"><button>Note_Pad 1</button> </li> -->
+      </ul>
+    </div>
+    
+
+
+
+
+    <!-- js link -->
+    <script type="text/javascript" src="./script.js" charset="UTF-8"></script>
+    
+  </body>
+</html>

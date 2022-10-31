@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+    /* margin: 0; */
+}
+
+body {
+    background-color: #c5c4c5;
+    width: auto;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.header {
+    width: 100%;
+    margin-bottom: 90px;
+    overflow: hidden;
+}
+.add {
+    padding: 7px 20px;
+    background-color: #44929b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 140px;
+    cursor: pointer;
+}
+
+.saved {
+    padding: 7px 20px;
+    background-color: #44929b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#savedNote {
+    visibility:hidden;
+    position: fixed;
+    top: 34.9px;
+    right: 10px;
+    background-color:rgba(44, 122, 131, 0.745);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+#savedNote li b{
+    cursor: pointer;
+}
+.note {
+    margin-left: 5px;
+    width: 370px;
+    display: inline-block;
+}
+
+.menu {
+    background-color:#3b777e ;
+    color: white;
+    width: 370px;
+    padding: 8px 10px;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+
+}
+.menu span {
+    cursor:pointer ;
+}
+
+.save {
+    display: flex;
+    width: 70px;
+    margin-right: 235px;
+    border: 1px solid #34a3af;
+    padding: 2px 4px 0px 1px;
+    border-radius: 3px;
+    background-color: #34a3af;
+}
+.save i {
+    margin:1px 4px 0;
+
+}
+
+.main {
+    background-color: white;
+    width: 370px;
+    height: 400px;
+    
+}
+textarea {
+    min-width: 370px;
+    max-width: 370px;
+    max-height: 400px;
+    min-height: 400px;
+    border: none;
+    outline: none;
+}
+
+.padDiv {
+    width: 15%;
+    position:fixed;
+    top: 30%;
+    left: 45%;
+    right: 45%;
+    border-radius: 3px;
+    background-color: #34a3af96;
+    visibility: hidden;
+    
+}
+
+.padList {
+    padding: 4px;
+    text-align: center; 
+    
+}
+
+.padList li button {
+    background-color:white;
+    border: 2px solid #7fa6aa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
