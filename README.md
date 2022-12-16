@@ -1,6 +1,11 @@
-##Note Pad
-new notes pad creating, editing texts and viewing saved note texts
+#Note Pad
+Dynamic Note Pad: create new note, editing saved notes viewing saved note texts and deleting note pads
 
+### Screenshots
+![](./screenshots/)
+![](./screenshots/)
+![](./screenshots/)
+![](./screenshots/)
 <!--  TASKS YET TO BE COMPLETED;.......................
                                [yet to work]
 
@@ -14,16 +19,13 @@ new notes pad creating, editing texts and viewing saved note texts
 - [Overview](#overview)
   - [Links](#links)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+ 
 - [Author](#author)
 
-## Overview
-This is a basic test of HTML, CSS, JAVASCRIPT AND DOM, also the use of web local/session storage to hold data on refresh .
+## Code Overview
+This is a basic test of HTML, CSS, JAVASCRIPT AND DOM, also the use of web local/session storage to hold/cache data on refresh .
 
 ### Links
-
-- Solution URL: [Repo](https://github.com/byron-a/NotePad.git)
 - Live Site URL: [live page](https://byron-a.github.io/NotePad/)
 
 ### Built with
@@ -32,12 +34,7 @@ This is a basic test of HTML, CSS, JAVASCRIPT AND DOM, also the use of web local
 - CSS custom properties and media queries
 - JavaScript
 
-### Continued development
 
-I want to be better generally as a frontend engineer to open doors for better opportunities.
-
-#useful-resources
-WEB MDN DOCS.
 
 ## Author
 byron-a
