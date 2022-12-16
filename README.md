@@ -2,10 +2,10 @@
 Dynamic Note Pad: create new note, editing saved notes viewing saved note texts and deleting note pads
 
 ### Screenshots
-![](./screenshots/)
-![](./screenshots/)
-![](./screenshots/)
-![](./screenshots/)
+![](./screenshots/notepage.png)
+![](./screenshots/newnotepads.png)
+![](./screenshots/savedNote.png)
+![](./screenshots/savingnotes.png)
 <!--  TASKS YET TO BE COMPLETED;.......................
                                [yet to work]
 
