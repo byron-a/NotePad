@@ -1,4 +1,4 @@
-#Note Pad
+# Note Pad
 Dynamic Note Pad: create new note, editing saved notes viewing saved note texts and deleting note pads
 
 ### Screenshots
